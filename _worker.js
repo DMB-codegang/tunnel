@@ -1,6 +1,7 @@
 ﻿
 import { connect } from 'cloudflare:sockets';
 
+
 let userID = '';
 let proxyIP = '';
 //let sub = '';
@@ -5814,4 +5815,5 @@ async function handleWebSocket(request) {
         status: 101,
         webSocket: client
     });
+
 }
